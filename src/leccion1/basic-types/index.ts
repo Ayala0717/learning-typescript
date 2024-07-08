@@ -4,7 +4,7 @@ const str = ''
 const num = 0
 let bool = false
 
-const obj? = {}
+const obj = {}
 const arr: [] = []
 
 bool ? true : false

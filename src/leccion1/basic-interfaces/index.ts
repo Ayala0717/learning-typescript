@@ -25,7 +25,7 @@ interface Characters extends Commons, Dates {
   origin?: Origin
 }
 
-const characters: Characters = {
+export const characters: Characters = {
   id: 8,
   name: 'aosdaj',
   status: 'dasda',
@@ -40,8 +40,4 @@ const characters: Characters = {
       meta: 'dadadsa'
     }
   }
-}
-
-function fetchCharacters(params: Characters) {
-  params?.origin?.meta?.meta
 }
